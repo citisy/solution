@@ -106,11 +106,15 @@ def check_solution(m):
             r3 = set(m[:, j]) == set_rg
             if not (r1 and r2 and r3):
                 break
-        else:  # for...else: when it's passed, don't join into else method, when it's not passed, break
-            break
+        # for...else: if break in for cycle, don't jump into else method
+        # so, when is passed, it jump into else method, and continue to next cycle
+        # if isn't passed, it don't jump into else method, and break the cycle
+        else:
+            continue
+        break
     else:
-        return False
-    return True
+        return True
+    return False
 
 
 if __name__ == '__main__':
