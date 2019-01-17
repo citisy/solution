@@ -20,6 +20,15 @@ array([1, 2, 3, 1])
 >>> get_text(left, right, left_solve, right_solve)
 '1CH2OH(CHOH)4CHO + 2Ag(NH3)2OH = 1CH2OH(CHOH)4COONH4 + 2Ag + 3NH3 + 1H2O'
 ```
+[magic_square](magic_square.py)
+```text
+>>> from magic_square import *
+>>> n = 3
+>>> solve(list(range(1, n * n + 1)), n)
+array([[2, 7, 6],
+       [9, 5, 1],
+       [4, 3, 8]])
+```
 [sudoku](sudoku.py)
 ```text
 >>> from sudoku import *
