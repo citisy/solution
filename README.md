@@ -1,4 +1,4 @@
-[chinese_text_vs_arabic_numerals](chinese_text_vs_arabic_numerals.py)
+### [chinese_text_vs_arabic_numerals](chinese_text_vs_arabic_numerals.py)
 <br>中文和阿拉伯数字互相转化
 ```text
 >>> from chinese_text_vs_arabic_numerals import *
@@ -9,14 +9,19 @@
 >>> text2num(text)
 '1234567890.0123456'
 ```
-[grab_red_envelopes](grab_red_envelopes.py)
+### [generate_maze](generate_maze.py)
+<br> 迷宫生成算法
+
+refer to [generate_maze](generate_maze/README.md) to read more
+
+### [grab_red_envelopes](grab_red_envelopes.py)
 <br>微信抢红包算法
 ```text
 >>> from grab_red_envelopes import *
 >>> solve(100, 5)
 [37.32, 1.41, 10.89, 12.75, 37.63]
 ```
-[leveling_chemical_equation](leveling_chemical_equation.py)
+### [leveling_chemical_equation](leveling_chemical_equation.py)
 <br>化学方程式配平
 ```text
 >>> from leveling_chemical_equation import *
@@ -29,7 +34,7 @@ array([1, 2, 3, 1])
 >>> get_text(left, right, left_solve, right_solve)
 '1CH2OH(CHOH)4CHO + 2Ag(NH3)2OH = 1CH2OH(CHOH)4COONH4 + 2Ag + 3NH3 + 1H2O'
 ```
-[magic_square](magic_square.py)
+### [magic_square](magic_square.py)
 <br>求解幻方，有暴力破解求解和巧妙求解两种方案
 ```text
 >>> from magic_square import *
@@ -39,7 +44,7 @@ array([[2, 7, 6],
        [9, 5, 1],
        [4, 3, 8]])
 ```
-[sudoku](sudoku.py)
+### [sudoku](sudoku.py)
 <br>数独生成和求解
 ```text
 >>> from sudoku import *
