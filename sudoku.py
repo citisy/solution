@@ -106,7 +106,7 @@ def check_solution(m):
             r3 = set(m[:, j]) == set_rg
             if not (r1 and r2 and r3):
                 break
-        # for...else: if break in for cycle, don't jump into else method
+        # for...else: if break in the cycle, don't jump into else method
         # so, when is passed, it jump into else method, and continue to next cycle
         # if isn't passed, it don't jump into else method, and break the cycle
         else:

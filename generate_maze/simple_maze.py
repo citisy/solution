@@ -1,6 +1,4 @@
-"""https://indienova.com/indie-game-development/rooms-and-mazes-a-procedural-dungeon-generator/
-https://www.cnblogs.com/WayneShao/p/5882680.html
-"""
+"""https://www.cnblogs.com/WayneShao/p/5882680.html"""
 
 import numpy as np
 from matplotlib import pyplot as plt
