@@ -21,7 +21,7 @@ refer to [generate_maze](generate_maze/README.md) to read more
 >>> solve(100, 5)
 [37.32, 1.41, 10.89, 12.75, 37.63]
 ```
-### [leveling_chemical_equation](leveling_chemical_equation.py)
+### [leveling_chemical_equation](ChemicalEquationBalancer.py)
 <br>化学方程式配平
 ```text
 >>> from leveling_chemical_equation import *
